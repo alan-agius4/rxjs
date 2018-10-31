@@ -2,12 +2,8 @@
   NOTE: This is the global export file for rxjs v6 and higher.
  */
 
-/* rxjs */
+/* rxjs and rxjs.operators */
 export * from '../index';
-
-/* rxjs.operators */
-import * as _operators from '../operators/index';
-export const operators = _operators;
 
 /* rxjs.testing */
 import * as _testing from '../testing/index';
